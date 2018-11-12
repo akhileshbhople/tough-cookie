@@ -11,4 +11,9 @@ node_js:
 - "v0.12.*"
 - "v0.10.*"
 matrix:
+  exclude:
+  - os: linux-ppc64le
+    node_js: "v0.12.*"
+  - os: linux-ppc64le
+    node_js: "v0.10.*"
   fast_finish: true
